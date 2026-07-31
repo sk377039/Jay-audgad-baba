@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>जय औघड़ बाबा मंदिर</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff8ed;
+            color: #4a2c15;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8b2f16, #d66b20);
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background: #5e1f0d;
+            text-align: center;
+            padding: 12px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 15px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .hero {
+            text-align: center;
+        }
+
+        .hero img {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #8b2f16;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            padding: 22px;
+            border-radius: 15px;
+            width: 260px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #b84d16;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #d66b20;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        footer {
+            background: #5e1f0d;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🛕 जय औघड़ बाबा मंदिर</h1>
+        <p>श्रद्धा • आस्था • भक्ति</p>
+    </header>
+
+    <nav>
+        <a href="#home">होम</a>
+        <a href="#about">मंदिर के बारे में</a>
+        <a href="#timing">समय</a>
+        <a href="#contact">संपर्क</a>
+    </nav>
+
+    <section id="home" class="hero">
+
+        <h2>जय औघड़ बाबा  🙏</h2>
+
+        <p>
+            जय औघड़ बाबा मंदिर की आधिकारिक वेबसाइट में आपका स्वागत है।
+        </p>
+
+        <!-- यहाँ मंदिर की फोटो लगाएँ -->
+        <img src="temple.jpg" alt="जय औघड़ बाबा मंदिर">
+
+    </section>
+
+    <section id="about">
+
+        <h2>मंदिर के बारे में</h2>
+
+        <p>
+            यह हमारे गाँव का प्राचीन और प्रसिद्ध मंदिर है।
+            यहाँ पर हर मंगलवार को मेला लगता है। लोग दूर-दूर से यहां आते है। और पूड़ी लपसी चढ़ाते हैं। और लोग श्रद्धा और विश्वास के साथ पूजा-अर्चना
+            करने आते हैं। और यहां पर हर साल तीज के दिन अखाड़ा और मेला लगता है। मंदिर में विभिन्न धार्मिक कार्यक्रम,
+            पूजा और त्योहारों का आयोजन किया जाता है। 
+        </p>
+
+    </section>
+
+    <section id="timing">
+
+        <h2>पूजा एवं आरती का समय</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>🌅 सुबह की आरती</h3>
+                <p>सुबह 7:00 बजे</p>
+            </div>
+
+            <div class="card">
+                <h3>🪔 शाम की आरती</h3>
+                <p>शाम 7:00 बजे</p>
+            </div>
+
+            <div class="card">
+                <h3>🙏 दर्शन</h3>
+                <p>सुबह 7:00 बजे से<br>रात 5:00 बजे तक</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>मंदिर का पता</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>📍 पता</h3>
+                <p>
+                   जीवत<br>
+                   अम्बेडकर नगर UP 45<br>
+                   उत्तर प्रदेश 
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📞 संपर्क</h3>
+                <p>+91 8948062508</p>
+
+                <a class="button"
+                   href="tel:+91 8948062508">
+                    कॉल करें
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 जय औघड़ बाबा मंदिर</p>
+        <p>सर्वेश कुमार निषाद</p>
+    </footer>
+
+</body>
+              </html>
